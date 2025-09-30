@@ -10,7 +10,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: azure;
+    background-color: rgb(251, 255, 255);
 }
 
 
@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: rgb(124, 237, 199);
+    background-color: rgb(177, 255, 229);
     height: 150px;
 }
 
@@ -26,7 +26,7 @@ header h1 {
     position: relative;
     right: 350px;
     top: 30px;
-    font-size: 23px;
+    font-size: 23px; 
 }
 
 nav ul {
@@ -52,7 +52,7 @@ main h2 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 70px;
+    top: 30px;
     font-size: 30px;
 }
 
@@ -61,7 +61,7 @@ main h2 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 90px;
+    top: 60px;
 
 
 }
@@ -79,8 +79,7 @@ main h2 {
     transform: scale(1.1);
 
     transition: all ease-in-out 0.3s;
-
-
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 footer {
@@ -94,7 +93,7 @@ footer p {
     font-size: 23px;
     position: relative;
     left: 700px;
-    top: 130px;
+    top: 80px;
 }
 
 .icones-f {
@@ -107,7 +106,7 @@ footer p {
 .icones-f img {
     height: 80px;
     position: relative;
-    top: 170px;
+    top: 120px;
 }
 
 
@@ -150,8 +149,6 @@ footer p {
 #link:hover {
     transform: scale(1.4);
 
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;   
 
 }
-
-
