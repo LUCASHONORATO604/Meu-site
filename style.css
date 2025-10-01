@@ -26,7 +26,7 @@ header h1 {
     position: relative;
     right: 350px;
     top: 30px;
-    font-size: 23px; 
+    font-size: 23px;
 }
 
 nav ul {
@@ -79,7 +79,7 @@ main h2 {
     transform: scale(1.1);
 
     transition: all ease-in-out 0.3s;
-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 footer {
@@ -91,8 +91,11 @@ footer {
 footer p {
     max-width: 700px;
     font-size: 23px;
-    position: relative;;
-    top: 80px;left: 33%;padding: 0  5px;
+    position: relative;
+    ;
+    top: 80px;
+    left: 33%;
+    padding: 0 5px;
 }
 
 
@@ -150,6 +153,25 @@ footer p {
 #link:hover {
     transform: scale(1.4);
 
-    transition: all ease-in-out 0.3s;   
+    transition: all ease-in-out 0.3s;
 
+}
+
+.email {position: relative;top: 8px;left: 10px;}
+
+.email img {
+    position: relative;
+    right: 15px;
+    padding: 5px;
+    height: 65px;
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+
+.email:hover {
+    transform: scale(1.1);
+
+    transition: all ease-in-out 0.3s;
 }
