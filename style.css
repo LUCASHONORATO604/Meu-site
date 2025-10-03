@@ -19,7 +19,7 @@ header {
     justify-content: space-around;
     width: 100%;
     background-color: rgb(177, 255, 229);
-    height: 150px;
+    height: 150px;box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 header h1 {
@@ -157,7 +157,11 @@ footer p {
 
 }
 
-.email {position: relative;top: 8px;left: 10px;}
+.email {
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
 
 .email img {
     position: relative;
