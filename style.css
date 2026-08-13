@@ -18,8 +18,9 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: rgb(177, 255, 229);
-    height: 150px;box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background-color: rgb(228, 21, 118);
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 header h1 {
@@ -142,7 +143,7 @@ footer p {
     transition: all ease-in-out 0.3s;
 }
 
-#link {
+#link1 {
     color: black;
     font-weight: 700;
     transition: all ease-in-out 0.3s;
@@ -150,12 +151,52 @@ footer p {
 }
 
 
-#link:hover {
+#link1:hover {
     transform: scale(1.4);
 
     transition: all ease-in-out 0.3s;
-
+    color: gray
 }
+
+#link2 {
+    color: black;
+    font-weight: 700;
+    transition: all ease-in-out 0.3s;
+    font-size: 23px;
+}
+
+
+#link2:hover {
+    transform: scale(1.4);
+
+    transition: all ease-in-out 0.3s;
+    color: rgb(253, 247, 247);
+    color: rgb(184, 180, 180)
+}
+
+#link3 {
+    color: black;
+    font-weight: 700;
+    transition: all ease-in-out 0.3s;
+    font-size: 23px;
+}
+
+
+#link3:hover {
+    transform: scale(1.4);
+
+    transition: all ease-in-out 0.3s;
+    color: rgb(202, 199, 199)
+}
+
+
+
+
+
+
+
+
+
 
 .email {
     position: relative;
