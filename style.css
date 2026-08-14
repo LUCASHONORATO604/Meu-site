@@ -30,6 +30,12 @@ header h1 {
     font-size: 23px;
 }
 
+header h1:hover {
+     transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+    color: gray;cursor:pointer
+}
+
 nav ul {
     display: flex;
 }
