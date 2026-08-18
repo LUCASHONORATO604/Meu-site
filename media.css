@@ -41,8 +41,8 @@
 }
 
 .projeto-img1 {
-    height: 140px;
-    width: 150px;
+    height: 240px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 10px 10px lightblue;
     position: relative;
@@ -65,8 +65,8 @@
 
 
 .projeto-img2 {
-    height: 140px;
-    width: 150px;
+    height: 240px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 10px 10px rgb(176, 228, 245);
     position: relative;
@@ -76,8 +76,8 @@
 }
 
 .projeto-img3 {
-    height: 140px;
-    width: 150px;
+    height: 240px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 10px 10px rgb(176, 228, 245);
     position: relative;
