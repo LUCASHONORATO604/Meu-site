@@ -25,7 +25,7 @@ header {
 
 header h1 {
     position: relative;
-    right: 310px;
+    right: 250px;
     top: 30px;
     font-size: 23px;
 }
@@ -80,6 +80,8 @@ main h2 {
     border-radius: 50%;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     cursor: pointer;
+    position: relative;
+    right: 50px
 }
 
 .img1:hover {
@@ -100,9 +102,9 @@ footer p {
     max-width: 700px;
     font-size: 23px;
     position: relative;
-    ;
+
     top: 80px;
-    left: 33%;
+    left: 28%;
     padding: 0 5px;
 }
 
@@ -124,7 +126,7 @@ footer p {
 
 .linkeding {
     position: relative;
-    right: 30px;
+    right: 150px;
     transition: all ease-in-out 0.3s;
 
 
@@ -139,7 +141,7 @@ footer p {
 
 .github {
     position: relative;
-    right: 18px;
+    right: 80px;
     padding: 0 5px;
     transition: all ease-in-out 0.3s;
 }
@@ -149,6 +151,7 @@ footer p {
 
     transition: all ease-in-out 0.3s;
 }
+
 
 #link1 {
     color: black;
@@ -211,7 +214,7 @@ footer p {
     position: relative;
 
     bottom: 330px;
-    left: 410px;
+    left: 380px;
 
 }
 
@@ -233,8 +236,8 @@ footer p {
     border-radius: 10px;
     box-shadow: 10px 10px rgb(176, 228, 245);
     position: relative;
-    bottom: 150px;
-    left: 430px;
+    bottom: 330px;
+    left: 410px;
 
 }
 
@@ -245,8 +248,7 @@ footer p {
     box-shadow: 10px 10px rgb(176, 228, 245);
     position: relative;
     bottom: 330px;
-    left: 150px;
-
+    left: 450px
 }
 
 .projeto-img2:hover {
