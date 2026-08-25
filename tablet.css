@@ -1,4 +1,4 @@
-@media screen and (max-width:1.056px) {
+@media (min-width: 768px) and (max-width: 1024p) {
     * {
         box-sizing: border-box;
         margin: 0%;
