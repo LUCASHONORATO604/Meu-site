@@ -23,11 +23,11 @@
 
     }
 
-    .img1 {
+   .imgcontainer .img1 {
         width: 250px;
         transition: all ease-in-out 0.3s;
         border-radius: 50%;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        box-shadow: rgba(1, 0, 2, 0.15) 0px 48px 100px 0px;
         cursor: pointer;position: relative;left:20px
     }
 
@@ -41,31 +41,36 @@
 
     }
 
-p{width: 400px;margin-top:30px}
+p{width: 400px;margin-top:30px;}
 
 
  span{display:none}
 
-.icones-f{display:none}
+
     .projetos {
         height: 300px;
-        width: 100%;
+        width: 100%;padding-top: 70px;
 
     }
+.icones-f{padding-left:100px;}
 
-    .projeto-img1 {
+    .icones-f .linkeding{position: relative;top:300px;left: px;}
+    .icones-f .github{position: relative;top:300px;left: px;}
+    .icones-f .email{position: relative;top:300px;left: 100px;}
+
+      .projetos .projeto-img1 {
         height: 180px;
         width: 180px;
         border-radius: 10px;
         box-shadow: 10px 10px lightblue;
         position: relative;
 
-        top: 230px;
-        left: 10px;
+        bottom: 520px;
+        left: 0px;
 
     }
 
-    .projeto-img1:hover {
+   .projeto-img1:hover {
         transform: scale(1.1);
 
         transition: all ease-in-out 0.5s;
@@ -77,24 +82,25 @@ p{width: 400px;margin-top:30px}
 
 
 
-    .projeto-img2 {
+    
+     .projetos .projeto-img2 {
         height: 180px;
         width: 180px;
         border-radius: 10px;
         box-shadow: 10px 10px rgb(176, 228, 245);
         position: relative;
-        top: 230px;
+        bottom: 520px;
         left: 30px;
 
     }
 
-    .projeto-img3 {
+  .projetos  .projeto-img3 {
         height: 180px;
         width: 180px;
         border-radius: 10px;
         box-shadow: 10px 10px rgb(176, 228, 245);
         position: relative;
-        top: 230px;
+        bottom: 520px;
     left: 50px;
 
     }
